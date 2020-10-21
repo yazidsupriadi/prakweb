@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navigation li {
+    float: right;
+  }
+  
+  #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #navigation li a:hover {
+    background-color: #111;
+  }
+
+  #header {
+    padding: 30px;
+    text-align: center;
+    background: url('image/tulip.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-size: 30px;
+  }
+
+  #aboutus h2{
+    text-align: center;
+    min-width: 1em; /* em unit */
+    padding: 10px; /* em unit */
+    
+    font-size: 20px;
+    text-align: center;
+    background: #000000;
+    color: #fefefe;
+  }
+#aboutus .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2vh;
+}
+
+
+#aboutus p{
+      text-align: center;
+      font-size: 14px;
+  }
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  #fasilitas h2{
+    text-align: center;
+    min-width: 1em; /* em unit */
+    padding: 10px; /* em unit */
+    
+    font-size: 20px;
+    text-align: center;
+    background: #000000;
+    color: #fefefe;
+  }
+#fasilitas .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2vh;
+}
